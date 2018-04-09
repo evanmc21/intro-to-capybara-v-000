@@ -1,6 +1,6 @@
 class Application < Sinatra::Base
   # Write your code here!
-  get '/' do #retrieves info from server to show user
+  get '/' do #get retrieves info from server to show user
     erb :index
   end
 
